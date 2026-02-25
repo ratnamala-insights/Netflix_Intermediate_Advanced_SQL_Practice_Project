@@ -48,6 +48,8 @@ Verified successful data load
 
 Total Content Available on Netflix
 
+```sql
+
 Select count(*) as total_content 
 from netflix;
 
