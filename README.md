@@ -53,10 +53,10 @@ Total Content Available on Netflix
 Select count(*) as total_content 
 from netflix;
 
+
+--find how many types of contents available in netflix
 ```sql
 
-SELECT name, age
-FROM users
-WHERE age > 18
-ORDER BY age DESC;
+Select distinct(types)
+from netflix;
 
