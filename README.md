@@ -46,17 +46,22 @@ Verified successful data load
 
 **Below is the step-by-step analysis performed on the dataset:**
 
-Total Content Available on Netflix
+**Total Content Available on Netflix**
 
 ```sql
 
 Select count(*) as total_content 
 from netflix;
 
+```sql
 
---find how many types of contents available in netflix
+
+**Find how many types of contents available in netflix**
+
 ```sql
 
 Select distinct(types)
 from netflix;
+
+```sql
 
